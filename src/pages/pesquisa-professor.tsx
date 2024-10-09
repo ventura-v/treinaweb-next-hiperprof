@@ -1,5 +1,6 @@
 import { Icon, TextField } from "@mui/material";
 import PageTitle from "@ui/components/data-display/PageTitle";
+import ProfessorCard from "@ui/components/data-display/ProfessorCard";
 
 
 export default function PesquisaProfessorPage() {
@@ -20,6 +21,7 @@ export default function PesquisaProfessorPage() {
                 title="Professores encontrados"
                 subtitle="Clique sobre um professor para ver os detalhes e poder marcar uma aula com o mesmo"
             />
+            <ProfessorCard />
         </>
     )
 }
