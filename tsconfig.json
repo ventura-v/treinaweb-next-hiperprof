@@ -19,7 +19,8 @@
       "@data/*": ["data/*"],
       "@styles/*": ["ui/styles/*"],
       "@ui/*": ["ui/*"],
-      "@components/*": ["ui/components/*"]
+      "@components/*": ["ui/components/*"],
+      "@routes/*": ["routes/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
